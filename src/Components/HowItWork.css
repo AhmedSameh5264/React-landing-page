@@ -1,0 +1,68 @@
+.htwSec {
+  background: #181f2b;
+  padding: 5% 0%;
+  color: hsl(275, 100%, 97%);
+}
+.htwSec h2 {
+  width: 63%;
+}
+.howfywork {
+  color: rgb(74, 199, 213);
+  position: relative;
+}
+
+.htw2col {
+  padding-left: 2%;
+  margin-top: 8%;
+}
+.howfywork:hover {
+  transition: all ease 0.5s;
+  color: hsl(275, 100%, 97%);
+}
+.howfywork::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.howfywork:hover::before {
+  width: 100%;
+}
+svg.svg-inline--fa.fa-circle-right {
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .htwSec h2 {
+    width: 68%;
+  }
+  .htwSec h2 {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .htwSec p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 77%;
+  }
+  .htwSec h2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .htwSec {
+    padding: 15% 0%;
+  }
+  .htwSec p {
+    width: 100%;
+  }
+  .htwSec h2 {
+    font-size: 20px;
+  }
+}

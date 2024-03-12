@@ -1,0 +1,90 @@
+.secOne {
+  padding: 5% 0%;
+  color: hsl(275, 100%, 97%);
+  text-align: center;
+}
+
+.secOne h1 {
+  width: 71%;
+  padding-top: 3%;
+  margin: 0 auto;
+}
+.secOne p {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 3%;
+  position: relative;
+}
+.secOne button {
+  width: 23%;
+  border-radius: 40px;
+  padding: 1.5%;
+  margin-top: 3%;
+  border: 0;
+  font-weight: 500;
+  background: rgb(74, 199, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 199, 213, 1) 32%,
+    rgba(64, 174, 209, 1) 62%
+  );
+  color: hsl(275, 100%, 97%);
+}
+.secOne button:hover {
+  background: #8cdae4;
+  background: rgb(140, 218, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(140, 218, 228, 1) 0%,
+    rgba(140, 218, 228, 1) 100%
+  );
+}
+
+@media (max-width: 1199px) {
+  .secOne p {
+    width: 55%;
+  }
+  .secOne h1 {
+    width: 76%;
+  }
+}
+@media (max-width: 991px) {
+  .secOne p {
+    width: 77%;
+  }
+  .secOne h1 {
+    width: 100%;
+  }
+  .secOne button {
+    width: 31%;
+    padding: 2%;
+  }
+}
+@media (max-width: 767px) {
+  .secOne h1 {
+    width: 97%;
+    margin-top: 6%;
+  }
+  .secOne p {
+    width: 71%;
+    margin-top: 2%;
+  }
+  .secOne button {
+    width: 47%;
+    padding: 2.5%;
+    margin-top: 6%;
+  }
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .secOne h1 {
+    width: 100%;
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+  .secOne p {
+    width: 100%;
+  }
+  .secOne button {
+    width: 52%;
+  }
+}

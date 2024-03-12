@@ -1,0 +1,75 @@
+.ListSec {
+  position: relative;
+  background-color: #181f2b;
+  color: hsl(275, 100%, 97%);
+  padding: 7% 0;
+}
+.ListSec::before {
+  content: "";
+  background: url(../images/bg-curvy-desktop.svg);
+
+  height: 23em;
+  position: absolute;
+  background-size: cover;
+  left: 0%;
+  top: -44.5%;
+  z-index: -1;
+  width: 100%;
+}
+.card {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: hsl(275, 100%, 97%);
+  background: transparent;
+  border: 0;
+}
+.scnrow {
+  margin-top: 7%;
+}
+.card-text:last-child {
+  width: 76%;
+  margin: 0 auto;
+}
+@media (max-width: 1199px) {
+  .card-text:last-child {
+    width: 91%;
+  }
+}
+@media (max-width: 991px) {
+  .ListSec::before {
+    background: url(../images/bg-curvy-mobile.svg);
+    background-size: contain;
+    top: -22.5%;
+    background-repeat: no-repeat;
+  }
+  .col-lg-6 {
+    padding-top: 7%;
+  }
+  .card-text:last-child {
+    width: 57%;
+  }
+}
+@media (max-width: 767px) {
+  .ListSec::before {
+    top: -16.5%;
+  }
+  .card-text:last-child {
+    width: 78%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .ListSec::before {
+    top: -12.5%;
+  }
+  .ListSec {
+    padding-top: 10%;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-text:last-child {
+    width: 100%;
+  }
+}

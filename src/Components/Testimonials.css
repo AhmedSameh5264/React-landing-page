@@ -1,0 +1,103 @@
+.tesSec {
+  padding-top: 5%;
+  padding-bottom: 25%;
+  color: hsl(275, 100%, 97%);
+  background-color: #181f2b;
+}
+.tesCol {
+  background-color: #21293c;
+}
+.tesDeti {
+  display: flex;
+  padding-top: 3%;
+}
+.tesDeti img {
+  width: 11%;
+  height: 10%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-bottom: -1%;
+}
+.tesDeti h6 {
+  padding-left: 4%;
+  margin: 0;
+  padding-top: 1%;
+}
+.tesDeti span {
+  font-size: 11px;
+  color: hsla(0, 0%, 100%, 0.554);
+}
+.tesCol {
+  background-color: #21293c;
+  padding: 3% 1% 1% 1%;
+  width: 29.333333%;
+  margin: 0% 2%;
+  box-shadow: 5px 4px 4px 6px #1c2230;
+}
+.fristescol {
+  position: relative;
+  z-index: 2;
+}
+.quts {
+  content: "";
+  background: url(../images/bg-quotes.png);
+  font-size: 19px;
+  width: 57px;
+  position: absolute;
+  z-index: -1;
+  height: 44px;
+  background-repeat: no-repeat;
+  top: -16%;
+  left: 1%;
+}
+@media (max-width: 1199px) {
+  .tesSec {
+    padding-bottom: 30%;
+    padding-top: 7%;
+  }
+}
+@media (max-width: 991px) {
+  .tesSec {
+    padding-bottom: 34%;
+    padding-top: 10%;
+  }
+  .tesCol {
+    width: 80%;
+    margin: 2% auto;
+  }
+  .quts {
+    top: -3%;
+    left: 10%;
+  }
+  .tesDeti {
+    padding-bottom: 5%;
+    padding-left: 7%;
+  }
+  .tesCol p {
+    width: 76%;
+    padding-left: 7%;
+  }
+}
+@media (max-width: 767px) {
+  .tesSec {
+    padding-top: 11%;
+    padding-bottom: 50%;
+  }
+  .tesCol p {
+    width: 97%;
+    padding-top: 3%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .tesSec {
+    padding-bottom: 70%;
+  }
+  .tesCol {
+    width: 90%;
+    margin: 5% auto;
+  }
+  .tesCol p {
+    width: 100%;
+  }
+}

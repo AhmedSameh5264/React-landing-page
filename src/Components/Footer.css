@@ -1,0 +1,275 @@
+footer {
+  color: white;
+  position: relative;
+  background: #0c1524;
+}
+.uperFooter {
+  position: absolute;
+  width: 61%;
+  background-color: #1c2230;
+  bottom: 82%;
+  left: 19%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+.uperFooter p {
+  width: 98%;
+}
+.uperFooter input {
+  width: 50%;
+  padding: 1.6%;
+  margin-left: 0%;
+  margin-right: 5%;
+  border-radius: 23px;
+  border: none;
+  margin-top: 3%;
+}
+.uperFooter button {
+  padding: 1.6%;
+  border-radius: 23px;
+  color: white;
+  background: orangered;
+  border: none;
+  width: 28%;
+  background: rgb(74, 199, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 199, 213, 1) 32%,
+    rgba(64, 174, 209, 1) 62%
+  );
+}
+.uperFooter button:hover {
+  background: #8cdae4;
+  background: rgb(140, 218, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(140, 218, 228, 1) 0%,
+    rgba(140, 218, 228, 1) 100%
+  );
+}
+:focus-visible {
+  outline: none;
+}
+.uperFooter span {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 1%;
+  color: red;
+  margin-left: 13%;
+}
+.mainfooter {
+  padding: 7% 0;
+}
+.mainfooter p {
+  padding-top: 9%;
+  padding-left: 7%;
+}
+.mainfooter svg {
+  padding-top: 11%;
+}
+.socialdiv {
+  padding-left: 6%;
+}
+.socialcol {
+  padding-top: 5.3%;
+}
+.flist ul {
+  list-style: none;
+  columns: 2;
+  width: 79%;
+}
+.socialdiv svg {
+  padding-right: 10%;
+}
+.ulfcol {
+  padding-top: 5%;
+}
+.media svg:hover {
+  color: rgb(74, 199, 213);
+  transition: all ease 0.5s;
+}
+.mediacol {
+  padding-top: 5%;
+}
+.fotlogodiv {
+  display: flex;
+}
+.flist li {
+  padding-top: 15%;
+}
+.media svg {
+  margin-left: 10%;
+  transition: all ease 0.5s;
+}
+.socialdiv h6{
+  font-size: 14px;
+}
+.flist {
+  padding-left: 15%;
+}
+.social h6 {
+  font-size: 14px;
+}
+@media (max-width: 1199px) {
+  .uperFooter button {
+    width: 34%;
+  }
+  .flist {
+    padding-left: 15%;
+  }
+  .flist ul {
+    padding-left: 0;
+  }
+  .mainfooter p {
+    padding-left: 4%;
+  }
+  svg.svg-inline--fa.fa-facebook-f {
+    margin-left: 0;
+  }
+  .media svg {
+    margin-left: 15%;
+  }
+  .mediacol {
+    padding-top: 6%;
+  }
+}
+@media (max-width: 991px) {
+  .media svg {
+    margin-left: 5%;
+  }
+  .mediacol {
+    padding-top: 0;
+    text-align: center;
+  }
+  .flist li {
+    padding-top: 7%;
+  }
+  .ulfcol {
+    padding-top: 5%;
+  }
+  .flist {
+    padding-left: 0;
+  }
+  .socialdiv h6 {
+    width: 45%;
+  }
+  .socialdiv svg {
+    padding-right: 6%;
+  }
+  .socialdiv {
+    padding-left: 0;
+  }
+  .socialcol {
+    padding-top: 0;
+  }
+  .mainfooter svg {
+    padding-top: 4.5%;
+  }
+  .mainfooter p {
+    padding-left: 4%;
+    padding-top: 4%;
+    width: 61%;
+  }
+  .uperFooter button {
+    width: 80%;
+    margin-top: 6%;
+  }
+  .uperFooter input {
+    width: 80%;
+    margin-right: 0;
+  }
+  .uperFooter p {
+    width: 88%;
+    margin: 4% auto;
+  }
+  .mainfooter {
+    padding: 7% 0;
+    padding-top: 33%;
+  }
+
+  .uperFooter {
+    width: 61%;
+    bottom: 80%;
+    padding-bottom: 4%;
+  }
+  .uperFooter input {
+    padding: 2%;
+  }
+  .uperFooter button {
+    padding: 2%;
+  }
+  svg.svg-inline--fa.fa-location-dot {
+    padding-left: 28px;
+  }
+  .ulfcol {
+    padding-left: 35px;
+  }
+  .socialdiv {
+    padding-left: 23px;
+  }
+  .socialdiv h6{
+    font-size: 16px;
+  }
+}
+.fotterlogo {
+  padding-left: 33px;
+}
+@media (max-width: 767px) {
+  .uperFooter button {
+    padding: 2.5%;
+  }
+  .uperFooter input {
+    padding: 2.5%;
+  }
+  .uperFooter p {
+    width: 100%;
+    margin: 4% auto;
+  }
+  .uperFooter {
+    width: 66%;
+    bottom: 85%;
+    padding-bottom: 4%;
+    left: 18%;
+  }
+  .flist li {
+    padding-top: 3%;
+  }
+  .flist ul {
+    columns: 1;
+  }
+  li.forthfli {
+    margin-top: 9%;
+  }
+  .socialdiv h6{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .uperFooter p {
+    width: 100%;
+    margin: 4% auto;
+    font-size: 14px;
+  }
+  .uperFooter h2 {
+    font-size: 21px;
+  }
+  .uperFooter {
+    width: 80%;
+    bottom: 89%;
+    padding-bottom: 4%;
+    left: 10%;
+  }
+  .socialdiv h6 {
+    width: 54%;
+  }
+  .mainfooter p {
+    width: 100%;
+  }
+  .socialdiv h6{
+    font-size: 16px;
+  }
+}
