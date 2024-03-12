@@ -39,13 +39,13 @@ function Footer() {
           </Col>
           <Col className="socialcol" md={12} lg={3} xl={2}>
             <div className="socialdiv">
-              <h6>
+              <h2>
                 <FontAwesomeIcon icon={faPhoneVolume} /> +1-543-123-4561
-              </h6>
-              <h6>
+              </h2>
+              <h2>
                 <FontAwesomeIcon icon={faEnvelope} />
                 example@fylo.com
-              </h6>
+              </h2>
             </div>
           </Col>
           <Col className="ulfcol" md={12} lg={4} xl={4}>
