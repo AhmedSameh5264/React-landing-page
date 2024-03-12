@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-landing-page/static/css/main.f24d080b.css",
+    "main.js": "/React-landing-page/static/js/main.cbccc820.js",
+    "static/js/453.ed3810f9.chunk.js": "/React-landing-page/static/js/453.ed3810f9.chunk.js",
+    "static/media/illustration-intro.png": "/React-landing-page/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/React-landing-page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "static/media/icon-collaboration.svg": "/React-landing-page/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
+    "static/media/icon-access-anywhere.svg": "/React-landing-page/static/media/icon-access-anywhere.2856c661b15230024a11eb4b089dd3f1.svg",
+    "static/media/icon-any-file.svg": "/React-landing-page/static/media/icon-any-file.fc9b91ba9923102f3aa45c19bc3244e6.svg",
+    "index.html": "/React-landing-page/index.html",
+    "static/media/bg-curvy-desktop.svg": "/React-landing-page/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
+    "static/media/bg-curvy-mobile.svg": "/React-landing-page/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b.svg",
+    "main.f24d080b.css.map": "/React-landing-page/static/css/main.f24d080b.css.map",
+    "main.cbccc820.js.map": "/React-landing-page/static/js/main.cbccc820.js.map",
+    "453.ed3810f9.chunk.js.map": "/React-landing-page/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f24d080b.css",
+    "static/js/main.cbccc820.js"
+  ]
+}
