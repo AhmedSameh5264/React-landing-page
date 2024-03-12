@@ -18,14 +18,23 @@
   object-fit: cover;
   padding-bottom: -1%;
 }
-.tesDeti h6 {
-  padding-left: 4%;
+.tesDeti h2 {
+  padding-left: 0;
   margin: 0;
   padding-top: 1%;
+  font-size: 16px;
 }
-.tesDeti span {
+.personaldiv {
+  margin-left: 3%;
+  width: 100%;
+}
+.personaldiv p {
+  padding-left: 0 !important;
+}
+.tesDeti p {
   font-size: 11px;
   color: hsla(0, 0%, 100%, 0.554);
+  padding-top: 2%;
 }
 .tesCol {
   background-color: #21293c;

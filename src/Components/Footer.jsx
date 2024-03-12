@@ -79,12 +79,17 @@ function Footer() {
               extremely generous. If you have any questions, our support team
               would be happy to help you
             </p>
-              <input
-                onChange={(e) => SetEmail(e.target.value)}
-                type="email"
-              />
-              <button onClick={handelemail}>Get Started For Free</button>
-              <span>{wrong}</span>
+            <form>
+              <label>
+                <input
+                  onChange={(e) => SetEmail(e.target.value)}
+                  type="email"
+                  required
+                />
+                <button onClick={handelemail}>Get Started For Free</button>
+                <span>{wrong}</span>
+              </label>
+            </form>
           </Col>
         </Row>
       </Container>

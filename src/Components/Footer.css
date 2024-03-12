@@ -14,6 +14,9 @@ footer {
   padding-top: 3%;
   padding-bottom: 1%;
 }
+label {
+  width: 100%;
+}
 .uperFooter p {
   width: 98%;
 }
@@ -104,7 +107,7 @@ footer {
   margin-left: 10%;
   transition: all ease 0.5s;
 }
-.socialdiv h6{
+.socialdiv h6 {
   font-size: 14px;
 }
 .flist {
@@ -210,7 +213,7 @@ footer {
   .socialdiv {
     padding-left: 23px;
   }
-  .socialdiv h6{
+  .socialdiv h6 {
     font-size: 16px;
   }
 }
@@ -243,7 +246,7 @@ footer {
   li.forthfli {
     margin-top: 9%;
   }
-  .socialdiv h6{
+  .socialdiv h6 {
     font-size: 16px;
   }
 }
@@ -269,7 +272,7 @@ footer {
   .mainfooter p {
     width: 100%;
   }
-  .socialdiv h6{
+  .socialdiv h6 {
     font-size: 16px;
   }
 }

@@ -17,7 +17,7 @@ function ListSec() {
                 <Card.Title>
                   <img src={imgone} alt="fristimg" title="fristimg" />
                 </Card.Title>
-                <h5>Access your files, anywhere</h5>
+                <h2>Access your files, anywhere</h2>
                 <Card.Text>
                   The ability to use a smartphone, tablet, or computer to access
                   your account means your files follow you everywhere,
@@ -31,7 +31,7 @@ function ListSec() {
                 <Card.Title>
                   <img src={imgtwo} alt="scnimg" title="scnimg" />
                 </Card.Title>
-                <h5>Security you can trust</h5>
+                <h2>Security you can trust</h2>
                 <Card.Text>
                   2-factor authentication and user-controlled encryption are
                   Just couple of the security features we allow to help secure
@@ -48,7 +48,7 @@ function ListSec() {
                 <Card.Title>
                   <img src={imgthree} alt="thirdimg" title="thirdimg" />
                 </Card.Title>
-                <h5>Real-time collaboration</h5>
+                <h2>Real-time collaboration</h2>
                 <Card.Text>
                   Securely share files and folders with friends, family and
                   colleagues for live collaboration. No email attachments
@@ -63,7 +63,7 @@ function ListSec() {
                 <Card.Title>
                   <img src={imgfour} alt="fourimg" title="fourimg" />
                 </Card.Title>
-                <h5>Store any type of file</h5>
+                <h2>Store any type of file</h2>
                 <Card.Text>
                   Whether you're sharing holidays photos or work documents, Fylo
                   has you covered allowing for all file types to be securely

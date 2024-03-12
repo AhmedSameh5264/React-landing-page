@@ -12,16 +12,16 @@ function Testimonials() {
         <Row className="fristescol">
           <Col md={12} lg={4} className="tesCol">
             <p>
-              <div className="quts"></div>
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <div className="tesDeti">
               <img src={p1} alt="profile one" title="profile one" />
-              <h6>
-                Satish Patel <br /> <span> Founder @ CEO, Huddle</span>
-              </h6>
+              <div className="personaldiv">
+                <h2>Satish Patel</h2>
+                <p> Founder @ CEO, Huddle</p>
+              </div>
             </div>
           </Col>
           <Col md={12} lg={4} className="tesCol">
@@ -32,9 +32,10 @@ function Testimonials() {
             </p>
             <div className="tesDeti">
               <img src={p2} alt="profile one" title="profile one" />
-              <h6>
-                Satish Patel <br /> <span> Founder @ CEO, Huddle</span>
-              </h6>
+              <div className="personaldiv">
+                <h2>Satish Patel</h2>
+                <p> Founder @ CEO, Huddle</p>
+              </div>
             </div>
           </Col>
           <Col md={12} lg={4} className="tesCol">
@@ -45,9 +46,10 @@ function Testimonials() {
             </p>
             <div className="tesDeti">
               <img src={p3} alt="profile one" title="profile one" />
-              <h6>
-                Satish Patel <br /> <span> Founder @ CEO, Huddle</span>
-              </h6>
+              <div className="personaldiv">
+                <h2>Satish Patel</h2>
+                <p> Founder @ CEO, Huddle</p>
+              </div>
             </div>
           </Col>
         </Row>
