@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-landing-page/static/css/main.5aeea712.css",
-    "main.js": "/React-landing-page/static/js/main.cfa0a95c.js",
+    "main.css": "/React-landing-page/static/css/main.5a7789a1.css",
+    "main.js": "/React-landing-page/static/js/main.5c144dc3.js",
     "static/js/453.ed3810f9.chunk.js": "/React-landing-page/static/js/453.ed3810f9.chunk.js",
     "static/media/illustration-intro.png": "/React-landing-page/static/media/illustration-intro.c20d85255009f195b4a6.png",
     "static/media/illustration-stay-productive.png": "/React-landing-page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
@@ -11,12 +11,12 @@
     "index.html": "/React-landing-page/index.html",
     "static/media/bg-curvy-desktop.svg": "/React-landing-page/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
     "static/media/bg-curvy-mobile.svg": "/React-landing-page/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b.svg",
-    "main.5aeea712.css.map": "/React-landing-page/static/css/main.5aeea712.css.map",
-    "main.cfa0a95c.js.map": "/React-landing-page/static/js/main.cfa0a95c.js.map",
+    "main.5a7789a1.css.map": "/React-landing-page/static/css/main.5a7789a1.css.map",
+    "main.5c144dc3.js.map": "/React-landing-page/static/js/main.5c144dc3.js.map",
     "453.ed3810f9.chunk.js.map": "/React-landing-page/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aeea712.css",
-    "static/js/main.cfa0a95c.js"
+    "static/css/main.5a7789a1.css",
+    "static/js/main.5c144dc3.js"
   ]
 }
